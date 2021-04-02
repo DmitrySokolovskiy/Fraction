@@ -35,4 +35,22 @@ public class FractionLogic {
 
         return result;
     }
+
+    public Fraction multiply(Fraction f1, Fraction f2) {
+        Fraction result = new Fraction();
+
+        result.setNumerator(f1.getNumerator() * f2.getNumerator());
+        result.setDenominator(f1.getNumerator() * f2.getNumerator());
+
+        return result;
+    }
+
+    public Fraction division(Fraction f1, Fraction f2) {
+        Fraction result = new Fraction();
+
+        result.setNumerator(f1.getNumerator() / f2.getNumerator());
+        result.setDenominator(f1.getNumerator() / f2.getNumerator());
+
+        return result;
+    }
 }

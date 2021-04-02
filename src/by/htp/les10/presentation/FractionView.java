@@ -12,4 +12,12 @@ public class FractionView {
         System.out.println(f.getNumerator() + " :num & dem: " + f.getDenominator());
     }
 
+    public void printMultiply(Fraction f) {
+        System.out.println(f.getNumerator() + " :num & dem: " + f.getDenominator());
+    }
+
+    public void printDivision(Fraction f) {
+        System.out.println(f.getNumerator() + " :num & dem: " + f.getDenominator());
+    }
+
 }

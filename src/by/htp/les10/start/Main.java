@@ -11,18 +11,16 @@ public class Main {
 		Fraction f2 = new Fraction(3, 4);
 		
 		Fraction f3;
-		
+
 		FractionLogic logic = new FractionLogic();
-		
 		f3 = logic.sum(f1, f2);
-		
+
 		FractionView view = new FractionView();
 		
 		view.printSum(f3);
-
-		view.printReduce(logic.reduce(f1));
-		view.printReduce(logic.reduce(f2));
-		view.printReduce(logic.reduce(f3));
+		view.printDivision(logic.division(f1, f2));
+		view.printMultiply(logic.multiply(f1, f2));
+		view.printReduce(f3);
 
 	}
 
