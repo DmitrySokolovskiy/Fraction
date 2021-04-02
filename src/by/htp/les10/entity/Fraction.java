@@ -61,7 +61,9 @@ public class Fraction {
 
     @Override
     public String toString() {
-        return "Fraction [numerator=" + numerator + ", denominator=" + denominator + "]";
+        return "Fraction{" +
+                "numerator=" + numerator +
+                ", denominator=" + denominator +
+                '}';
     }
-
 }
