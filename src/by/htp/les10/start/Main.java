@@ -6,22 +6,22 @@ import by.htp.les10.presentation.FractionView;
 
 public class Main {
 
-	public static void main(String[] args) {
-		Fraction f1 = new Fraction(1, 2);
-		Fraction f2 = new Fraction(3, 4);
-		
-		Fraction f3;
+    public static void main(String[] args) {
+        Fraction f1 = new Fraction(1, 2);
+        Fraction f2 = new Fraction(3, 4);
 
-		FractionLogic logic = new FractionLogic();
-		f3 = logic.sum(f1, f2);
+        Fraction f3;
 
-		FractionView view = new FractionView();
-		
-		view.printSum(f3);
-		view.printDivision(logic.division(f1, f2));
-		view.printMultiply(logic.multiply(f1, f2));
-		view.printReduce(f3);
+        FractionLogic logic = new FractionLogic();
+        f3 = logic.sum(f1, f2);
 
-	}
+        FractionView view = new FractionView();
+
+        view.printSum(f3);
+        view.printDivision(logic.division(f1, f2));
+        view.printMultiply(logic.multiply(f1, f2));
+        view.printReduce(f3);
+
+    }
 
 }
