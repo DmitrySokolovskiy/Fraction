@@ -48,8 +48,8 @@ public class FractionLogic {
     public Fraction division(Fraction f1, Fraction f2) {
         Fraction result = new Fraction();
 
-        result.setNumerator(f1.getNumerator() / f2.getNumerator());
-        result.setDenominator(f1.getNumerator() / f2.getNumerator());
+        result.setNumerator(f1.getNumerator() * f2.getDenominator());
+        result.setDenominator(f1.getDenominator() * f2.getNumerator());
 
         return result;
     }
